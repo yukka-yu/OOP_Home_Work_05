@@ -1,16 +1,10 @@
 package home5;
 
-import Ex001Calc.Model;
+import java.io.IOException;
 
 public class Main {
-    public static void main(String[] args) {
-        Presentor presentor = new Presentor(new View(), new Complex(3,6));
-        presentor.Butt();
-
-
-
-
-
-
+    public static void main(String[] args) throws IOException {
+        Presentor presentor = new Presentor(new View());
+        presentor.Button();
     }
 }

@@ -12,8 +12,12 @@ public class View {
             System.out.printf("Lead no less than 1 and no more than %d\n", choice);
             number = in.nextDouble();
         }
-        System.out.println("right");
         return number;
+    }
+
+    public double getValueNoChoice(String string){
+        System.out.printf("%s", string);
+        return in.nextDouble();
     }
 
 }
